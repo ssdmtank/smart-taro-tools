@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npx lerna bootstrap",
+    "build": "lerna exec -- yarn build",
+    "publish": "lerna publish --conventional-commits"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  }
+}

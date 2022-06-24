@@ -1,0 +1,44 @@
+{
+  "name": "@ssdmtank/smart-taro-hooks",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "typings": "lib/index.d.js",
+  "sideEffects": "false",
+  "scripts": {
+    "build": "rollup -c",
+    "lint-staged:js": "eslint --ext .js,.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@tarojs/components": "3.3.13",
+    "@tarojs/taro": "3.3.14",
+    "@types/react": "^17.0.2",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^6.8.0",
+    "eslint-config-taro": "3.3.2",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.7.1",
+    "react": "^17.0.2",
+    "rollup": "^2.75.7",
+    "rollup-plugin-clear": "^2.0.7",
+    "typescript": "^4.2.3"
+  },
+  "peerDependencies": {
+    "@tarojs/components": ">= 3.x",
+    "@tarojs/taro": ">= 3.x",
+    "react": ">=16.9"
+  }
+}
