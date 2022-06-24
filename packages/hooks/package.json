@@ -1,12 +1,14 @@
 {
   "name": "@ssdmtank/smart-taro-hooks",
-  "version": "0.0.2",
-  "private": true,
+  "version": "0.0.3",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "typings": "lib/index.d.js",
   "sideEffects": "false",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "lint-staged:js": "eslint --ext .js,.ts"
